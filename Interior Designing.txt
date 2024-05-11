@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <title>Interior Design</title>
+        <meta name="Generator" content="Editplus">
+        <meta name="Author" content="">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="Interior.css">
+        <link rel="stylesheet" href="C:\Users\JMS\OneDrive\Desktop\fontawesome-free-5.14.0-web\fontawesome-free-5.14.0-web\css\all.min.css">
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--AOS-->
+    <script>
+        function stickyMenu(){
+            var sticky= document.getElementById("sticky");
+            if(window.pageYOffset > 20){
+                sticky.classList.add("sticky");
+                sticky.classList.remove("menu-ul");
+            }
+            else{
+                sticky.classList.remove("sticky");
+            }
+        }
+        window.onscroll = function() {
+            stickyMenu();   
+        }
+    </script>
+    </head>
+    <body>
+        <div class="top-background">
+            <div class="menu" id="sticky">
+                <ul class="menu-ul">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Our Designs</a></li>
+                    <li><a href="">Why Us</a></li>
+                    <li><a href="">Appointment</a></li>
+                </ul>
+            </div>
+            <div class="page-title">INTERIOR DESIGNS
+                <div class="description">
+                    Let us make your home HEAVEN.
+                </div>
+            </div>
+        </div>
+    <!--Our Designs block-->
+        <div class="page-blocks">
+            <div class="title" data-aos="fade-right" >
+                Our Designs
+            </div>
+            <div class="design">
+                <img src="image.jpg" data-aos="fade-up"/>
+                <img src="image1.jpg" data-aos="fade-up"/>
+                <img src="image2.jpeg" data-aos="fade-up"/>
+                <img src="image3.jpeg" data-aos="fade-up"/>
+                <img src="image4.jpeg" data-aos="fade-up"/>
+                <img src="image5.jpeg" data-aos="fade-up"/>
+                <img src="image6.jpeg" data-aos="fade-up"/>
+                <img src="image7.jpeg" data-aos="fade-up"/>
+                <img src="image8.jpeg" data-aos="fade-up"/>
+            </div>
+            <button class="more-designs-btn" data-aos="fade-up">More Designs</button>
+        </div>
+    <!--Why Us Block-->
+    <div class="page-blocks">
+        <div class="title" data-aos="fade-right">
+            Why Us
+        </div>
+        <div class="flex-block">
+            <div class="why-us-flex-item" data-aos="fade-up">
+                <div class="block-label">
+                    Our Projects
+                </div>
+                <div class="block-description">
+                    Our expert designers are well trained and equipped with major modern interior designing tools that helps
+                    us provide you with innovative solutions and unique Interior decor plans that stand out.
+                </div>
+            </div>
+            <div class="why-us-flex-item" data-aos="fade-up">
+                <div class="block-label">
+                    Our Designs
+                </div>
+                <div class="block-description">
+                    Our expert designers are well trained and equipped with major modern interior designing tools that helps
+                    us provide you with innovative solutions and unique Interior decor plans that stand out.
+                </div>
+            </div>
+            <div class="why-us-flex-item" data-aos="fade-up">
+                <div class="block-label">
+                    Our Services
+                </div>
+                <div class="block-description">
+                    Our expert designers are well trained and equipped with major modern interior designing tools that helps
+                    us provide you with innovative solutions and unique Interior decor plans that stand out.
+                </div>
+            </div>
+            
+            <div class="why-us-flex-item" data-aos="fade-up">
+                <div class="block-label">
+                    Finished Projects
+                </div>
+                <div class="block-number"> 
+                    1,471,987
+                </div>
+            </div>
+            <div class="why-us-flex-item" data-aos="fade-up">
+                <div class="block-label">
+                    Upcoming Projects
+                </div>
+                <div class="block-number"> 
+                    251,907
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Appointment Block-->
+    <div class="page-blocks">
+        <div class="title" data-aos="zoom-in">
+            Appointment
+        </div>
+        <div class="flex-block">
+            <div class="appointment-flex-item" data-aos="fade-right">
+                <div class="appointment-img">
+                    <div class="appointment-text">
+                        Make an appointment Today
+                    </div>
+                </div>
+            </div>
+            <div class="appointment-flex-item" data-aos="fade-left">
+                <form class="appointment-form">
+                    <input type="text" placeholder="Name"/><br/>
+                    <input type="text" placeholder="Mobile"/><br/>
+                    <input type="text" placeholder="Email"/><br/>
+                    <input type="text" placeholder="City"/><br/>
+                    <textarea type="text" placeholder="Requirement"></textarea></form><br/>
+                    <button class="appointment-btn">Make An Appointment</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!--footer block-->
+        <div class="footer">
+            <div class="locations">
+                <div>US LOCATION<br/>
+                    <div class="address">1121 Street Name<br/>City Name<br>Zip 0000</div>
+                </div>
+            </div>
+            <div class="locations">
+                <div>UK LOCATION<br/>
+                    <div class="address">1121 Street Name<br/>City Name<br>Zip 0000</div>
+                </div>
+            </div>
+            <div class="locations">
+                <div>UAE LOCATION<br/>
+                    <div class="address">1121 Street Name<br/>City Name<br>Zip 0000</div>
+                </div>
+            </div>
+            <div class="social-media-icons">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-pinterest-square"></i>
+                <i class="fab fa-whatsapp-square"></i>
+            </div>
+         </div>
+         <div class="copyrights"><i class="far fa-copyright fa-lx"></i>2022 By Programmers Web Drive</div>
+    </body>
+</html>
+
+<script>
+    AOS.init({
+        duration:1400, 
+    });
+</script>

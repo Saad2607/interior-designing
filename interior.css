@@ -1,0 +1,220 @@
+body{
+    margin:0;
+    background: #1d2026;
+}
+
+.top-background, .appointment-img{
+    background-image: url('Images/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.menu{
+    text-align: center;
+    font-size: 18px;
+}
+.menu-ul{
+    padding: 10px;
+}
+.menu-ul li{
+    display: inline-block;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+}
+a{
+    border-bottom: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+.sticky{
+    background: #0f4c75;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.sticky ul{
+    padding: 0;
+    margin: 10px;
+}
+.page-title{
+    text-align: center;
+    font-size: 50px;
+    padding: 200px;
+    color: #fff;
+    letter-spacing: 10px;
+    text-shadow: 0 0 5px #0f4c75;
+}
+.description, .title{
+    font-variant: small-caps;
+    font-size: 30px;
+    margin: 50px;
+}
+.page-blocks{
+    text-align: center;
+    margin-top: 50px;
+}
+.title{
+    letter-spacing: 10px;
+    color: #fff;
+}
+.design img{
+    height: 35%;
+    max-width: 95%;
+    margin: 15px;  
+}
+.more-designs-btn{
+    border: 2px solid #0f4c75;
+    color: #4020b3;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 2px;
+    background-color: #0f4c75;    
+}
+.more-designs-btn:hover{
+    background: #0f4c75;
+    color: white;
+    transition: all 0.5s;
+}
+.flex-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.why-us-flex-item{
+    background: #0f4c75;
+    color: white;
+    width: 20%;
+    padding: 40px;
+    margin: 20px;
+}
+.block-label{
+    font-variant: small-caps;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+.block-description{
+    text-align: justify;
+}
+.block-number{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+.appointment-flex-item{
+    background: #0f4c75;
+    color: white;
+    height: 450px;
+    width: 45%;
+    padding: 0px;
+    margin: 20px 0px;
+    overflow: hidden; 
+}
+.appointment-img{
+    background-image: url('Images/image9.jpeg');
+}
+.appointment-text{
+    padding: 200px 20px;
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.appointment-form{
+    padding: 20px;
+}
+.appointment-form input, textarea{
+    width: 60%;
+    max-width: 60%;
+    padding: 5px;
+    margin-bottom: 15px;
+    outline: none;
+    text-align: center;
+    color: #0f4c75;
+    font-size: 16px;
+}
+.appointment-form textarea{
+    height: 100px;
+    max-height: 100px;
+    max-width: 60%;
+    overflow-y: scroll;
+}
+.appointment-btn{
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.appointment-btn:hover, input{
+    
+    color: #0f4c75;
+}
+.footer{
+    background: #0f4c75;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.locations{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 27%;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    padding: 20px;
+}
+.address{
+    font-weight: lighter;
+    padding: 20px;
+    font-size: 16px;
+}
+.instagram{
+    background: #3f729b;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+.facebook{
+    background: #3b5998;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+.twitter{
+    background: #00acee;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+.linkedin{
+    background: #0e76a8;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+.google{
+    background: #db4a39;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+.youtube{
+    background: #c4302b;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+.copyrights{
+    font-size: 16px;
+    text-align: center;
+    margin: 15px;
+    color: #fff;
+}

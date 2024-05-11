@@ -1,0 +1,10 @@
+body{
+    margin:0;
+    background: #1d2026;
+}
+
+.design img{
+    height: 35%;
+    max-width: 95%;
+    margin: 15px;  
+}
